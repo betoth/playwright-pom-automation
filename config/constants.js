@@ -1,0 +1,32 @@
+const env = require('./loadEnv')
+
+// URL constants
+const URLS = {
+  BASE_URL: env.BASE_URL,
+  LOGIN_PAGE: `${env.BASE_URL}${env.LOGIN_PAGE_PATH}`,
+  INVENTORY_PAGE: `${env.BASE_URL}${env.INVENTORY_PAGE_PATH}`,
+  CART_PAGE: `${env.BASE_URL}${env.CART_PAGE_PATH}`,
+}
+
+// Timeout constants
+const TIMEOUTS = {
+  SHORT: 3000,
+  MEDIUM: 5000,
+  LONG: 10000,
+}
+
+// User password constants
+const PASSWORDS = {
+  STANDARD_USER: env.STANDARD_USER_PASSWORD,
+  LOCKED_OUT_USER: env.LOCKED_OUT_USER_PASSWORD,
+  PROBLEM_USER: env.PROBLEM_USER_PASSWORD,
+  PERFORMANCE_GLITCH_USER: env.PERFORMANCE_GLITCH_USER_PASSWORD,
+  ERROR_USER: env.ERROR_USER_PASSWORD,
+  VISUAL_USER: env.VISUAL_USER_PASSWORD,
+}
+
+module.exports = {
+  URLS,
+  TIMEOUTS,
+  PASSWORDS,
+}

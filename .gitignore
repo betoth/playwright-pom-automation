@@ -1,0 +1,17 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore Playwright test results
+test-results/
+
+# Ignore Playwright reports
+playwright-report/
+
+# Ignore VSCode settings (if using VSCode)
+.vscode/
+
+# Ignore log files
+*.log
