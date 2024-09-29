@@ -3,5 +3,6 @@ node_modules/
 test-results/
 playwright-report/
 .vscode/
-*.log
 package-lock.json
+*.log
+
